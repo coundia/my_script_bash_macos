@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This script takes one or more port numbers as arguments and attempts to stop
-# Usage: ./script_name.sh port1 [port2 ... portN]
+# Usage: ./stop port1 [port2 ... portN]
 
 # Function to print usage instructions
 usage() {

@@ -5,3 +5,4 @@ code
 *.pyo
 var
 cache
+.DS_Store
