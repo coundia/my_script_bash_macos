@@ -1,0 +1,7 @@
+venv
+code
+.idea
+*.pyc
+*.pyo
+var
+cache
