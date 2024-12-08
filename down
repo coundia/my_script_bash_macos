@@ -14,7 +14,8 @@ for url in "$@"; do
     final_url=$(curl -s -L --max-redirs 0 -o /dev/null -w "%{redirect_url}" "$url")
 
     if [[ -z "$final_url" ]]; then
-        echo "Failed to resolve URL for: $url"
+        echo "No redirect URL for: $url"
+        final_url = $url
         continue
     fi
 

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+tart run  --dir="shared:/Users/pcoundia/shared" ubuntu
