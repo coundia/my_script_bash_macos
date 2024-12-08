@@ -6,3 +6,6 @@ code
 var
 cache
 .DS_Store
+log
+.env.local
+.env
